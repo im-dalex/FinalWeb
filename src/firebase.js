@@ -5,12 +5,12 @@ import 'firebase/storage'
 
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyAUoNBtK76zs29BAR1TDOzxNr2c3y4RT_0",
-    authDomain: "agenda-e3dfe.firebaseapp.com",
-    databaseURL: "https://agenda-e3dfe.firebaseio.com",
-    projectId: "agenda-e3dfe",
-    storageBucket: "agenda-e3dfe.appspot.com",
-    messagingSenderId: "136326956300"
+    apiKey: "AIzaSyB_3nT44bX0BMx6Oz-q2GBTAmUg7e3pvcA",
+    authDomain: "prograweb-81c79.firebaseapp.com",
+    databaseURL: "https://prograweb-81c79.firebaseio.com",
+    projectId: "prograweb-81c79",
+    storageBucket: "prograweb-81c79.appspot.com",
+    messagingSenderId: "268085390116"
   };
   firebase.initializeApp(config);
   const firestore = firebase.firestore();

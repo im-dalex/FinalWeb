@@ -67,6 +67,9 @@
                             <v-flex xs12 sm6>
                                 <v-btn :loading="cargando" color="red" @click="eliminarTarea" outline dark block>ELIMINAR</v-btn>
                             </v-flex>
+                            <v-flex xs12 sm6>
+                                <v-btn :loading="cargando" color="success" @click="email" outline block>ENVIAR CORREO</v-btn>
+                            </v-flex>
                         </v-layout>
                     </v-container>
                 </v-form>
@@ -202,6 +205,9 @@ export default {
                 this.cargando = false
                 console.log(error)
             })
+        },
+        email(){
+            
         }
     }
     
