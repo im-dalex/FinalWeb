@@ -35,6 +35,14 @@
                                     label="Numero de celular"
                                     v-model="celular"
                                 />    
+                                <v-text-field
+                                    label="Asunto de Mensaje"
+                                    v-model="asunto"
+                                />   
+                                <v-text-field
+                                    label="Mensaje a enviar"
+                                    v-model="Mensaje"
+                                />   
                             </v-flex>
                             <center><v-card-text>Llenar todos los campos</v-card-text></center>
 
